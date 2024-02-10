@@ -1,0 +1,16 @@
+{
+  "name": "dblog",
+  "version": "1.0.0",
+  "description": "Yuxin's blog",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix client",
+    "server": "npm start --prefix server",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "author": "Yuxin Du",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
